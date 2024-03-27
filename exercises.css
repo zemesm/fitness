@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* list-style-type: none; */
+    text-decoration: none;
+    transition: all 0.3s linear;
+    outline: none;
+    scroll-behavior: smooth;
+    color: #fff;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* background: rgb(71, 66, 63); */
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
+    url(./images/exercises.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 36px;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 14;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+h5 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.start {
+    background: rgb(82, 84, 87);
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.info {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.info .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.info .row .three {
+    flex-basis: 20%;
+    /* background: rgb(209, 236, 255); */
+    background: rgb(91, 93, 95);
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.info .row .three:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.info .row .three p, .info .row .three ul {
+    text-align: left;
+    padding-left: 50px; padding-right: 30px;
+}
+
+.info .row .three ul li {
+    padding-top: 15px;
+}

@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Awesome Fonts na https://fontawesome.com/ -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Fitness Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bod">
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="toggle"></div>
+            <ul class="links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#coaches">teachers</a></li>
+                <li><a href="#plans">plans</a></li>
+                <li><a href="#register">contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>fitness guides</h1>
+        </div>
+    </header>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="image">
+                <img src="./images/about.jpg" id="img1">
+            </div>
+            <div class="content">
+                <h1>about fitness guides</h1>
+                <p>In this web page we offer the knowledge acquired in 3 years of training and research for cheap prices so that people who want it bad enough can get into better shapes.</p>
+                <p>There are many pre-made templates for nutrition and training that are easy to follow even for people with little to no experience in fitness.</p>
+                <p>The main purpose of this web page is to help people live healthier lives.</p>
+                <p>Our courses are a great way to start, but after following our plans, you will find out more about fitness and will be able to update these plans according to your own needs and will no longer need the help of professionals and can continue this journey on your own.</p>
+                <p>Start your journey today.</p>
+                <a href="#register"><button class="btn">Learn more</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id="services">
+        <h1 refl-text="What we provide">what we provide</h1>
+        <div class="container">
+            <div class="box" id="img2">
+                <img src="./images/1.jpg">
+                <div class="info">
+                    <h3>cardio</h3>
+                    <p>Cardio including your favourite movement styles such as running on a threadmill, electro bike cycling, stair stepper and more.</p>
+                    <a href="#register"><button class="btn">more</button></a>
+                </div>
+            </div>
+            <div class="box" id="img3">
+                <img src="./images/2.jpg">
+                <div class="info">
+                    <h3>weightlifting</h3>
+                    <p>Weightlifting including many different training styles and techniques such as high intensity interval training, crossfit, supersets, dropsets, res-pause sets and more.</p>
+                    <a href="#register"><button class="btn">more</button></a>
+                </div>
+            </div>
+            <div class="box" id="img4">
+                <img src="./images/3.jpg">
+                <div class="info">
+                    <h3>nutrition</h3>
+                    <p>Nutrition including your favourite foods as a part of the diet, not excluding anything you like and many tasty, easy to prepare recipes to satisfy your hunger and taste buds.</p>
+                    <a href="#register"><button class="btn">more</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- coaches -->
+    <!-- <section class="coaches" id="coaches">
+        <h1>coaches</h1>
+        <div class="items">
+            <div class="item" id="item1">
+                <img src="./images/coach1.jpg">
+                <div class="inner">
+                    <div class="info">
+                        <h4>David Laid</h4>
+                        <p>gymshark athlete</p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/davidlaid/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/c/DavidLaid/featured"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="item2">
+                <img src="./images/coach2.jpg">
+                <div class="inner">
+                    <div class="info">
+                        <h4>Sean Nalewanyj</h4>
+                        <p>online coach</p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/sean_nalewanyj/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/user/NalewanyjFitness"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="item3">
+                <img src="./images/coach3.jpg">
+                <div class="inner">
+                    <div class="info">
+                        <h4>Jeff Seid</h4>
+                        <p>fitness model</p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/jeff_seid/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/user/OfficialJeffSeid"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="item4">
+                <img src="./images/coach4.jpg">
+                <div class="inner">
+                    <div class="info">
+                        <h4>Martin Zemes</h4>
+                        <p>just a regular person</p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/zemes_martin/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="coaches" id="coaches">
+        <h1>My teachers</h1>
+        <div class="items">
+            <div class="item" id="item1">
+                <img src="./images/doucette.png">
+                <div class="inner">
+                    <div class="info">
+                        <h4>Greg Doucette</h4>
+                        <p>ifbb pro bodybuilder</p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/GregDoucetteIfofficial/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/gregdoucetteifbbpro/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/user/gregdoucette"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="item2">
+                <img src="./images/coach2.jpg">
+                <div class="inner">
+                    <div class="info">
+                        <h4>Sean Nalewanyj</h4>
+                        <p>online coach</p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/sean.nalewanyj"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/sean_nalewanyj/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/user/NalewanyjFitness"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="item3">
+                <img src="./images/jeff2.png">
+                <div class="inner">
+                    <div class="info">
+                        <h4>Jeff Nippard</h4>
+                        <p>natural bodybuilder</p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/jeffnippard/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/jeffnippard/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UC68TLK0mAEzUyHx5x5k-S1Q"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="item4">
+                <img src="./images/athleanx.png">
+                <div class="inner">
+                    <div class="info">
+                        <h4>Jeff Cavaliere</h4>
+                        <p>personal trainer</p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/athleanx/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/athleanx/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@athleanx"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- transformations -->
+    <section class="transformations" id="transformations">
+        <h1>transformations</h1>
+        <div></div>
+        <div class="back" style="display: inline-block; margin-right: 45px;">
+            <div class="col">
+                <h2>Before:</h2>
+                <img src="./images/fatLegs.jpg">
+            </div>
+            <div class="col">
+                <h2>After:</h2>
+                <img src="./images/shreddedLegs.jpg">
+            </div>
+        </div>
+        <div class="back" style="display: inline-block;">
+            <div class="col">
+                <h2>Before:</h2>
+                <img src="./images/fatTop.jpg">
+            </div>
+            <div class="col">
+                <h2>After:</h2>
+                <img src="./images/shreddedTop.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- workout templates -->
+    <section class="weightlifting-templates">
+        <h1>free weightlifting plans</h1>
+        <div class="weightlifting-templates-tables">
+            <div class="days" id="day1">
+                <h2>1 day/week</h2>
+                <table>
+                    <tr><th>day 1 - full body 1</th></tr>
+                    <tr><td>bb bench press - 4x12</td></tr>
+                    <tr><td>lat pulldown - 4x12-15</td></tr>
+                    <tr><td>db shoulder press - 4x12</td></tr>
+                    <tr><td>db bicep curls x rope tricep extensions - 4x15 x 4x15</td></tr>
+                    <tr><td>bb squats - 4x8</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day2">
+                <h2>2 days/week</h2>
+                <table>
+                    <tr><th>day 1 - full body 1</th></tr>
+                    <tr><td>bb bench press - 4x8</td></tr>
+                    <tr><td>lat pulldown - 4x15</td></tr>
+                    <tr><td>db shoulder press - 4x12</td></tr>
+                    <tr><td>db bicep curls x rope tricep extensions - 4x15 x 4x15</td></tr>
+                    <tr><td>bb squats - 4x8</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 2 - full body 2</td></th></tr>
+                    <tr><td>db bench press - 4x12</td></tr>
+                    <tr><td>bb row - 4x8-12</td></tr>
+                    <tr><td>standing db lateral raises - 4x12-15</td></tr>
+                    <tr><td>bb bicep curls x db overhead tricep extensions - 4x15 x 4x15</td></tr>
+                    <tr><td>leg extensions - 4x12-15</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day3">
+                <h2>3 days/week</h2>
+                <table>
+                    <tr><th>day 1 - full body 1</th></tr>
+                    <tr><td>bb bench press - 4x8-12</td></tr>
+                    <tr><td>lat pulldown - 4x12</td></tr>
+                    <tr><td>seated rear delt db flies - 4x15</td></tr>
+                    <tr><td>db bicep curls x rope tricep extensions - 4x15 x 4x15</td></tr>
+                    <tr><td>bb squats - 4x8</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 2 - full body 2</th></tr>
+                    <tr><td>db shoulder press - 4x8-12</td></tr>
+                    <tr><td>db rows - 4x12</td></tr>
+                    <tr><td>inclide db bench press - 4x12</td></tr>
+                    <tr><td>fixed bb bicep curls x skullcrushers - 4x12-15 x 4x12-15</td></tr>
+                    <tr><td>hack squats - 4x12-15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 3 - full body 3</th></tr>
+                    <tr><td>db bench press - 4x12-15</td></tr>
+                    <tr><td>bb row - 4x8-8-12</td></tr>
+                    <tr><td>standing db lateral raises - 4x12-15</td></tr>
+                    <tr><td>bb bicep curls x db overhead tricep extensions - 4x12 x 4x12-15</td></tr>
+                    <tr><td>leg extensions - 4x12-15</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day4">
+                <h2>4 days/week</h2>
+                <table>
+                    <tr><th>day 1 - upper body</th></tr>
+                    <tr><td>bb bench press - 4x8-12</td></tr>
+                    <tr><td>lat pulldown - 4x12-15</td></tr>
+                    <tr><td>standing db lateral raises - 4x12-15</td></tr>
+                    <tr><td>bb bicep curls - 4x12</td></tr>
+                    <tr><td>rope tricep pushdowns - 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 2 - lower body & abs</th></tr>
+                    <tr><td>bb squats - 4x8</td></tr>
+                    <tr><td>bb romanian deadlifts = 4x8-12</td></tr>
+                    <tr><td>leg extensions - 4x12-15</td></tr>
+                    <tr><td>calf raises - 4x15</td></tr>
+                    <tr><td>ab crunches x leg raises - 4x15 x 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 3 - upper body</th></tr>
+                    <tr><td>db bench press - 4x12-15</td></tr>
+                    <tr><td>bb row - 4x12</td></tr>
+                    <tr><td>vseated rear delt db flies - 4x15</td></tr>
+                    <tr><td>db bicep curls - 4x12-15</td></tr>
+                    <tr><td>db overhead tricep extensions - 4x12-15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 4 - full body</th></tr>
+                    <tr><td>shoulder db press - 4x12</td></tr>
+                    <tr><td>db rowns - 4x12-15</td></tr>
+                    <tr><td>incline db bench press - 4x12-15</td></tr>
+                    <tr><td>incline db bench curls x skullcrushers - 4x12-15 x 4x12-15</td></tr>
+                    <tr><td>leg press - 4x12-15</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day5">
+                <h2>5 days/week</h2>
+                <table>
+                    <tr><th>day 1 - chest & back</th></tr>
+                    <tr><td>bb bench press - 4x8-12</td></tr>
+                    <tr><td>bb rows - 4x12</td></tr>
+                    <tr><td>incline bb bench press - 4x12-15</td></tr>
+                    <tr><td>neutral grip lat pulldown - 4x12-15</td></tr>
+                    <tr><td>cable chest flies x rope lat pullover - 4x15 x 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 2 - shoulders & arms</th></tr>
+                    <tr><td>shoulder db press - 4x12</td></tr>
+                    <tr><td>ez bar skullcrushers - 4x12-15</td></tr>
+                    <tr><td>standing twisting db cursls - 4x12-15</td></tr>
+                    <tr><td>seated rear delt db flies - 4x15</td></tr>
+                    <tr><td>rope curls x rope tricep pushdowns - 4x12-15 x 4x12-15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 3 - legs & abs</th></tr>
+                    <tr><td>leg press - 4x12-15</td></tr>
+                    <tr><td>db romanian deadlifts - 4x12-15</td></tr>
+                    <tr><td>db lunges - 4x12-15</td></tr>
+                    <tr><td>calf raises - 4x15</td></tr>
+                    <tr><td>ab crunch machine x hanging leg raises - 4x12-15 x 4x12-15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 4 - upper body</th></tr>
+                    <tr><td>db bench press - 4x12-15</td></tr>
+                    <tr><td>lat pulldown - 4x15</td></tr>
+                    <tr><td>standing db lateral raises - 4x12-15</td></tr>
+                    <tr><td>bb bicep curls - 4x12</td></tr>
+                    <tr><td>db overhead tricep extensions - 4x12-15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 5 - lower body & abs</th></tr>
+                    <tr><td>bb squats - 4x8</td></tr>
+                    <tr><td>bb rdls - 4x8-12</td></tr>
+                    <tr><td>leg extensions - 4x12-15</td></tr>
+                    <tr><td>ham curls - 4x12-15</td></tr>
+                    <tr><td>plank hold x russian twists - 4x30s x 4x30s</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day6">
+                <h2>6 days/week</h2>
+                <table>
+                    <tr><th>day 1 - chest & back</th></tr>
+                    <tr><td>bb bench press - 4x8-12</td></tr>
+                    <tr><td>bb row - 4x8-12</td></tr>
+                    <tr><td>incline db bench press - 4x12-15</td></tr>
+                    <tr><td>neutral grip lat pulldown - 4x12-15</td></tr>
+                    <tr><td>high cable chest flies - 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 2 - legs & abs</th></tr>
+                    <tr><td>leg press - 3x12-15</td></tr>
+                    <tr><td>db rdls - 3x15</td></tr>
+                    <tr><td>db lunges - 3x12-15</td></tr>
+                    <tr><td>leg extensions - 3x12-15</td></tr>
+                    <tr><td>calf rasies - 4x15</td></tr>
+                    <tr><td>ab crunch machine x hanging leg raises - 4x12-15 x 4x12-15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 3 - shoulders & arms</th></tr>
+                    <tr><td>shoulder db press - 4x12</td></tr>
+                    <tr><td>rope tricep pushdowns - 4x12-15</td></tr>
+                    <tr><td>rope curls - 4x12-15</td></tr>
+                    <tr><td>seated rear delt db flies - 4x15</td></tr>
+                    <tr><td>ez bar skullcrushers - 4x12-15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 4 - chest & back</th></tr>
+                    <tr><td>db rows - 4x12</td></tr>
+                    <tr><td>db bench press - 4x12-15</td></tr>
+                    <tr><td>lat pulldown - 4x12-15</td></tr>
+                    <tr><td>incline bb bench press - 4x12-15</td></tr>
+                    <tr><td>seated neutral grip cable rows - 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 5 - legs & abs</th></tr>
+                    <tr><td>bb squts - 3x8</td></tr>
+                    <tr><td>bb rdls - 3x8-12</td></tr>
+                    <tr><td>smith machine squats - 3x12-15</td></tr>
+                    <tr><td>ham curls - 3x15</td></tr>
+                    <tr><td>smith machine calf raises - 4x15</td></tr>
+                    <tr><td>plank hold x russian twists - 4x30s x 4x30s</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 6 - shoulders & arms</th></tr>
+                    <tr><td>bb military press - 4x12</td></tr>
+                    <tr><td>standing twisting db curls - 4x12-15</td></tr>
+                    <tr><td>db overhead tricep extensions - 4x12-15</td></tr>
+                    <tr><td>seated db lateral raises - 4x12-15</td></tr>
+                    <tr><td>bb bicep curls - 4x12</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day7">
+                <h2>7 days/week</h2>
+                <table>
+                    <tr><th>day 1 - chest & back</th></tr>
+                    <tr><td>bb bench press - 4x8-12</td></tr>
+                    <tr><td>bb row - 4x8-12</td></tr>
+                    <tr><td>incline db bench press - 4x12-15</td></tr>
+                    <tr><td>neutral grip lat pulldown - 4x12-15</td></tr>
+                    <tr><td>high cable chest flies - 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 2 - legs</th></tr>
+                    <tr><td>leg press - 4x12-15</td></tr>
+                    <tr><td>db rdls - 4x15</td></tr>
+                    <tr><td>db lunges - 4x12-15</td></tr>
+                    <tr><td>leg extensions - 4x12-15</td></tr>
+                    <tr><td>calf rasies - 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 3 - shoulders & arms</th></tr>
+                    <tr><td>shoulder db press - 4x12</td></tr>
+                    <tr><td>rope tricep pushdowns - 4x12-15</td></tr>
+                    <tr><td>rope curls - 4x12-15</td></tr>
+                    <tr><td>seated rear delt db flies - 4x15</td></tr>
+                    <tr><td>ez bar skullcrushers - 4x12-15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 4 - abs</th></tr>
+                    <tr><td>crunches - 3x12-15</td></tr>
+                    <tr><td>laying leg raises - 3x12-15</td></tr>
+                    <tr><td>russian twists - 3x30s</td></tr>
+                    <tr><td>seated in and outs - 3x30s</td></tr>
+                    <tr><td>plank hold - 3x30s</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 5 - chest & back</th></tr>
+                    <tr><td>db rows - 4x12</td></tr>
+                    <tr><td>db bench press - 4x12-15</td></tr>
+                    <tr><td>lat pulldown - 4x12-15</td></tr>
+                    <tr><td>incline bb bench press - 4x12-15</td></tr>
+                    <tr><td>seated neutral grip cable rows - 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 6 - legs</th></tr>
+                    <tr><td>bb squts - 4x8</td></tr>
+                    <tr><td>bb rdls - 4x8-12</td></tr>
+                    <tr><td>smith machine squats - 4x12-15</td></tr>
+                    <tr><td>ham curls - 4x15</td></tr>
+                    <tr><td>smith machine calf raises - 4x15</td></tr>
+                </table>
+                <table>
+                    <tr><th>day 7 - shoulders & arms</th></tr>
+                    <tr><td>bb military press - 4x12</td></tr>
+                    <tr><td>standing twisting db curls - 4x12-15</td></tr>
+                    <tr><td>db overhead tricep extensions - 4x12-15</td></tr>
+                    <tr><td>seated db lateral raises - 4x12-15</td></tr>
+                    <tr><td>bb bicep curls - 4x12</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- calorie templates -->
+    <section id="calorie-templates">
+        <h1>free calorie plans</h1>
+        <div class="calorie-templates-tables">
+            <div class="days" id="day8">
+                <h2>1500 cal/day</h2>
+                <table>
+                    <tr><th>breakfast - protein oats</th></tr>
+                    <tr><td>oats - 50g</td></tr>
+                    <tr><td>protein powder - 30g</td></tr>
+                    <tr><td>zero cal sweetener of choice</td></tr>
+                    <tr><td>water</td></tr>
+                    <tr><th>snack</th></tr>
+                    <tr><td>high protein chocolate pudding - 200g</td></tr>
+                    <tr><th>lunch</th></tr>
+                    <tr><td>raw chicken breast - 200g</td></tr>
+                    <tr><td>cooked rice - 200g</td></tr>
+                    <tr><td>cooked brocolli = 200g</td></tr>
+                    <tr><th>dinner</th></tr>
+                    <tr><td>1 apple = 150g</td></tr>
+                    <tr><td>nuts - 20g</td></tr>
+                    <tr><td>protein bar - 60g</td></tr>
+                </table>
+                <table>
+                    <h2 style="margin-top: 280px;">macronutrients</h2>
+                    <tr><td>calories - 1521</td></tr>
+                    <tr><td>protein - 127g</td></tr>
+                    <tr><td>carbohydrates - 163g</td></tr>
+                    <tr><td>fats - 34g</td></tr>
+                    <tr><td>fibre - 26,5g</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day9">
+                <h2>2000 cal/day</h2>
+                <table>
+                    <tr><th>breakfast - yoghurt bowl</th></tr>
+                    <tr><td>low fat yoghurt - 145g</td></tr>
+                    <tr><td>cottage cheese - 250g</td></tr>
+                    <tr><td>zero cal sweetener of choice</td></tr>
+                    <tr><th>snack - banana & protein shake</th></tr>
+                    <tr><td>1 banana - 110g</td></tr>
+                    <tr><td>protein powder - 30g</td></tr>
+                    <tr><td>zero cal sweetener of choice</td></tr>
+                    <tr><td>water</td></tr>
+                    <tr><th>lunch</th></tr>
+                    <tr><td>beef thigh - 300g</td></tr>
+                    <tr><td>cooked rice - 300g</td></tr>
+                    <tr><td>cooked brocolli - 200g</td></tr>
+                    <tr><th>snack</th></tr>
+                    <tr><td>1 apple - 200g</td></tr>
+                    <tr><td>nuts - 20g</td></tr>
+                    <tr><th>dinner</th></tr>
+                    <tr><td>tofu - 180g</td></tr>
+                    <tr><td>steamed vegetables - 300g</td></tr>
+                </table>
+                <table>
+                    <h2 style="margin-top: 155px;">macronutrients</h2>
+                    <tr><td>calories - 2022</td></tr>
+                    <tr><td>protein - 182g</td></tr>
+                    <tr><td>carbohydrates - 180g</td></tr>
+                    <tr><td>fats - 58g</td></tr>
+                    <tr><td>fibre - 28,3g</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day10">
+                <h2>2500 cal/day</h2>
+                <table>
+                    <tr><th>breakfast</th></tr>
+                    <tr><td>5 eggs - 275g</td></tr>
+                    <tr><td>3 pcs toas - 75g</td></tr>
+                    <tr><td>6 slices deli meat - 75g</td></tr>
+                    <tr><td>ketchup - 70g</td></tr>
+                    <tr><th>snack</th></tr>
+                    <tr><td>high protein vanilla pudding - 200g</td></tr>
+                    <tr><td>1 banana - 110g</td></tr>
+                    <tr><th>lunch</th></tr>
+                    <tr><td>pork - 200g</td></tr>
+                    <tr><td>cooked rice - 200g</td></tr>
+                    <tr><td>cooked brocolli - 150g</td></tr>
+                    <tr><th>snack</th></tr>
+                    <tr><td>protein bar - 70g</td></tr>
+                    <tr><td>1 apple - 200g</td></tr>
+                    <tr><th>dinner - yoghurt bowl</th></tr>
+                    <tr><td>cottage cheese - 250g</td></tr>
+                    <tr><td>cocoa powder - 10g</td></tr>
+                    <tr><td>zero cal sweetener of choice</td></tr>
+                </table>
+                <table>
+                    <h2 style="margin-top: 155px;">macronutrients</h2>
+                    <tr><td>calories - 2512</td></tr>
+                    <tr><td>protein - 167g</td></tr>
+                    <tr><td>carbohydrates - 215g</td></tr>
+                    <tr><td>fats - 104g</td></tr>
+                    <tr><td>fibre - 25,3g</td></tr>
+                </table>
+            </div>
+            <div class="days" id="day11">
+                <h2>3000 cal/day</h2>
+                <table>
+                    <tr><th>breakfast - toasts</th></tr>
+                    <tr><td>2 slices bread - 100g</td></tr>
+                    <tr><td>2 slices deli meat - 24g</td></tr>
+                    <tr><td>mashed avocado - 100g</td></tr>
+                    <tr><td>sesame seeds</td></tr>
+                    <tr><th>snack - protein shake</th></tr>
+                    <tr><td>protein powder - 30g</td></tr>
+                    <tr><td>1 banana - 110g</td></tr>
+                    <tr><td>oats - 50g</td></tr>
+                    <tr><td>full fat milk - 300ml</td></tr>
+                    <tr><td>water</td></tr>
+                    <tr><td>zero cal sweetener of choice</td></tr>
+                    <tr><th>lunch</th></tr>
+                    <tr><td>salmon - 200g</td></tr>
+                    <tr><td>cooked rice - 300g</td></tr>
+                    <tr><td>cooked brocolli - 150g</td></tr>
+                    <tr><th>snack - yoghurt bowl</th></tr>
+                    <tr><td>protein powder - 30g</td></tr>
+                    <tr><td>low fat cream cheese - 250</td></tr>
+                    <tr><td>zero cal sweetener of choice</td></tr>
+                    <tr><th>dinner - veggie pasta</th></tr>
+                    <tr><td>cooked pasta - 300g</td></tr>
+                    <tr><td>cooked vegetables - 200g</td></tr>
+                    <tr><td>shredded mozarealla - 60g</td></tr>
+                </table>
+                <table>
+                    <h2 style="margin-top: 35px;">macronutrients</h2>
+                    <tr><td>calories - 3003</td></tr>
+                    <tr><td>protein - 191g</td></tr>
+                    <tr><td>carbohydrates - 308g</td></tr>
+                    <tr><td>fats - 104g</td></tr>
+                    <tr><td>fibre - 32,6g</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom plans -->
+    <section class="plans_table" id="plans">
+        <h1>custom plans</h1>
+        <div class="plans_card">
+            <div class="plans_box" id="box1">
+                <h2>custom weightlifting plan<br><br><br></h2>
+                <h3>20<sup>€</sup></h3>
+                <ul>
+                    <li>your favourite exercises</li>
+                    <li>done in the time you have</li>
+                    <li>equipement or bodyweight</li>
+                    <li>at the gym or at home</li>
+                    <li>easy to follow</li>
+                </ul>
+                <a href="#register"><button class="btn">contact me</button></a>
+            </div>
+            <div class="plans_box" id="box2">
+                <h2>custom nutrition and cardio plan<br><br></h2>
+                <h3>30<sup>€</sup></h3>
+                <ul>
+                    <li>your favourite foods</li>
+                    <li>prepared in no time</li>
+                    <li>fitting your calorie needs</li>
+                    <li>amazing tasting diet</li>
+                    <li>easy to prepare</li>
+                </ul>
+                <a href="#register"><button class="btn">contact me</button></a>
+            </div>
+            <div class="plans_box" id="box3">
+                <h2>custom weightlifting, nutrition and cardio plan<br><br></h2>
+                <h3>40<sup>€</sup></h3>
+                <ul>
+                    <li>nutrition and workouts</li>
+                    <li>workouts based on you</li>
+                    <li>diet that works for you</li>
+                    <li>nutrition and workouts combined</li>
+                    <li>easy to understand</li>
+                </ul>
+                <a href="#register"><button class="btn">contact me</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- database -->
+
+    <section class="db" id="db">
+        <h1>Databases</h1>
+        <div class="main">
+            <div class="imgs" style="margin-right: 50px;">
+                <h2 style="padding-left: 130px; padding-top: 50px;">info database</h2>
+                <a href="info.html"><img src="./images/book.jpg"></a>
+            </div>
+            <div class="imgs">
+                <h2 style="padding-left: 90px; padding-top: 50px;">exercise database</h2>
+                <a href="exercises.html"><img src="./images/exercisesss.png"></a>
+            </div>
+            <!-- <div class="imgs">
+                <h2 style="padding-left: 80px; padding-top: 420px;">exercise database</h2>
+                <a href="info - Copy.html"><img src="./images/exercisesss.png"></a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- contact -->
+    <!-- <section class="register" id="register">
+        <h1>Contact</h1>
+        <form action="connect.php" method="POST">
+            <div class="input_box">
+                <input type="text" placeholder="name + surname" name="name" id="name" required>
+                <input type="password" placeholder="password" name="password" id="password" required>
+            </div>
+            <div class="input_box">
+                <input type="email" placeholder="email" name="email" id="email" required>
+                <input type="number" placeholder="phone number" name="phoneNumber" id="phoneNumber">
+            </div>
+            <textarea cols="30" rows="10" placeholder="message ..." name="message" id="message"></textarea>
+            <input type="hidden" value="english" id="langg" name="langg">
+            <button class="btn"><a>register</a></button>
+        </form>
+    </section> -->
+
+    
+    <section class="register" id="register">
+        <h1>Contact</h1>
+        <div class="contact">
+            <div class="columns">
+                <p>name: <br> Martin Zemeš</p>
+                <p>email: <br> martinzemes5.0@gmail.com</p>
+                <p>phone <br> number: 0950 614 496</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/martin.zemes"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/zemes_martin/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+    <script>
+        const bod = document.querySelector('.bod');
+        const img1 = document.querySelector('#img1');
+        const img2 = document.querySelector('#img2');
+        const img3 = document.querySelector('#img3');
+        const img4 = document.querySelector('#img4');
+        const item1 = document.querySelector('#item1');
+        const item2 = document.querySelector('#item2');
+        const item3 = document.querySelector('#item3');
+        const item4 = document.querySelector('#item4');
+        const day1 = document.querySelector('#day1');
+        const day2 = document.querySelector('#day2');
+        const day3 = document.querySelector('#day3');
+        const day4 = document.querySelector('#day4');
+        const day5 = document.querySelector('#day5');
+        const day6 = document.querySelector('#day6');
+        const day7 = document.querySelector('#day7');
+        const day8 = document.querySelector('#day8');
+        const day9 = document.querySelector('#day9');
+        const day10 = document.querySelector('#day10');
+        const day11 = document.querySelector('#day11');
+        const plan1 = document.querySelector('#box1');
+        const plan2 = document.querySelector('#box2');
+        const plan3 = document.querySelector('#box3');
+        const reg = document.querySelector('#register');
+        const toggle = document.querySelector('.toggle');
+
+        toggle.onclick = function(){
+        bod.classList.toggle('dark')
+        img1.classList.toggle('dark')
+        img2.classList.toggle('dark')
+        img3.classList.toggle('dark')
+        img4.classList.toggle('dark')
+        item1.classList.toggle('dark')
+        item2.classList.toggle('dark')
+        item3.classList.toggle('dark')
+        item4.classList.toggle('dark')
+        day1.classList.toggle('dark')
+        day2.classList.toggle('dark')
+        day3.classList.toggle('dark')
+        day4.classList.toggle('dark')
+        day5.classList.toggle('dark')
+        day6.classList.toggle('dark')
+        day7.classList.toggle('dark')
+        day8.classList.toggle('dark')
+        day9.classList.toggle('dark')
+        day10.classList.toggle('dark')
+        day11.classList.toggle('dark')
+        plan1.classList.toggle('dark')
+        plan2.classList.toggle('dark')
+        plan3.classList.toggle('dark')
+        reg.classList.toggle('dark')
+        }
+
+        // funkcia na show hesla
+        function showPass() {
+        var pass = document.getElementById("password");
+        if (pass.type === "password") {
+            pass.type = "text";
+        } 
+        else {
+            pass.type = "password";
+        }
+        }
+    </script>
+</body>
+</html>
